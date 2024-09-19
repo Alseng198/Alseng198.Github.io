@@ -1,0 +1,38 @@
+Ally Senger, Sarah Stonehocker, Bella Willoughby
+
+html errors 1:
+
+Added <!DOCTYPE html> to line 2
+Shortened language to lang on line 4.
+Moved <html lang="en"> above the <head> on line 3.
+Added meta info to <head> on lines 5 and 6.
+Closed <head> on line 8
+Added </h1> to line 9.
+Added <p> to line 11.
+Deleted the / on line 19.
+Changed </ul> to </ol> on line 24.
+Added </p> on line 26.
+Fixed source to image.jpg on line 28. (I put my images in a separate folder within html_midterm).
+Added and alt name for the image on line 28.
+Fixed link on line 31.
+Got rid of </img> on line 31.
+
+
+
+html errors 2:
+
+1:
+2:
+3:
+4:
+5:
+6:
+7:
+8:
+9:
+10:
+11:
+12:
+13:
+14:
+15:
