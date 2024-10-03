@@ -1,0 +1,65 @@
+
+article1 {
+    position: absolute;
+    color: black;
+    background-color: lightblue;
+    top: 13em;
+    left: 30em;
+    width: 10em;
+    height: 11em;
+    font: normal;
+    font-size: 20px;
+    padding: 3px;
+    border-radius: 5px;
+    border-color: black;
+    z-index: 1
+    
+}
+
+article2 {
+    position: absolute;
+    color: black;
+    background-color: lightgrey;
+    z-index: 2;
+    height: 5em;
+    width: 50em;
+    border: 5px;
+    border-color: black;
+    top: 31em;
+    padding: 3px
+
+}
+
+#MN {
+    text-shadow: 1px 1px 1px black;
+    font: italic;
+    font-size: 25px;
+    margin: 0;
+    
+}
+
+#BN {
+    text-shadow: 1px 1px 1px black;
+    font: italic;
+    font-size: 30px;
+    margin: 0;
+}
+
+#bottom {
+    position: absolute;
+    text-shadow: 1px 1px 1px black;
+    color: white;
+    background-color: red;
+    text-align:center;
+    z-index: 3;
+    width: 33em;
+
+
+}
+
+#background {
+    position:absolute;
+    Width: 50em;
+    z-index: 0;
+}
+
