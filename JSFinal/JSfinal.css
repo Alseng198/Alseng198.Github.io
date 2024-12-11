@@ -5,48 +5,6 @@ body {
     background-attachment: fixed;
 }
 
-/*
-#dl1 {
-    position: absolute;
-    display: grid;
-    top: 25em;
-    left: 15em;
-    z-index: 1;
-}
-
-#crysdrag {
-    position: absolute;
-    display: grid;
-    top: 60em;
-    left: 50em;
-    z-index: 1;
-}
-
-#cs1 {
-    position: absolute;
-    display: grid;
-    top: 25em;
-    left: 50em;
-    z-index: 1;
-}
-
-#clive1 {
-    position: absolute;
-    display: grid;
-    top: 60em;
-    left: 15em;
-    z-index: 1;
-}
-
-#motor {
-    position: absolute;
-    display: grid;
-    top: 95em;
-    left: 15em;
-    z-index: 1;
-}
-*/
-
 
 img:hover {
     transform:scale(1.2);
@@ -253,8 +211,7 @@ img:hover {
     grid-template-columns: 20em 20em;
     justify-content: space-around;
     grid-gap: 10em;
-    padding: 1em;
-    
+    padding: 2em;
 
     transition: transform .2s;
     
