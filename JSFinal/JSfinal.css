@@ -1,0 +1,515 @@
+
+body {
+    background-image: url("JSfinalimgs/bg.png");
+    background-size: 80em;
+    background-attachment: fixed;
+}
+
+/*
+#dl1 {
+    position: absolute;
+    display: grid;
+    top: 25em;
+    left: 15em;
+    z-index: 1;
+}
+
+#crysdrag {
+    position: absolute;
+    display: grid;
+    top: 60em;
+    left: 50em;
+    z-index: 1;
+}
+
+#cs1 {
+    position: absolute;
+    display: grid;
+    top: 25em;
+    left: 50em;
+    z-index: 1;
+}
+
+#clive1 {
+    position: absolute;
+    display: grid;
+    top: 60em;
+    left: 15em;
+    z-index: 1;
+}
+
+#motor {
+    position: absolute;
+    display: grid;
+    top: 95em;
+    left: 15em;
+    z-index: 1;
+}
+*/
+
+
+img:hover {
+    transform:scale(1.2);
+    
+}
+
+
+
+#home .hide {
+    position: relative;
+    color: black;
+    background-color: rgb(0 300 700 / 85%);
+    bottom: 15px;
+    left: 10px;
+    padding: 8px;
+    visibility:hidden;
+    text-align: center;
+}
+
+#home:hover .hide {
+    visibility:visible;
+}
+
+
+#comic .hide1 {
+    position: relative;
+    color: black;
+    background-color: rgb(0 300 700 / 85%);
+    bottom: 10px;
+    left: 10px;
+    padding: 8px;
+    visibility:hidden;
+}
+
+#comic:hover .hide1 {
+    visibility:visible;
+}
+
+
+.physdescriptions {
+    padding: 1em;
+    position:absolute;
+    color: black;
+    top: 60em;
+    left: 22em;
+    background-color: lightcyan;
+}
+
+#physdescripts {
+    padding: 0.5em;
+    position: absolute;
+    color: black;
+    top: 50em;
+    left: 34em;
+    background-color: cyan;
+}
+
+.buttonsphys {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto;
+    position: absolute;
+    color: black;
+    top: 54em;
+    left: 32em;
+    background-color: darkcyan;
+}
+
+#physhelp {
+    padding: 0.5em;
+    position: absolute;
+    color: black;
+    top: 55em;
+    left: 28em;
+    background-color: cyan;
+}
+
+
+
+.digidescriptions {
+    padding: 1em;
+    position:absolute;
+    color: black;
+    top: 60em;
+    left: 22em;
+    background-color: lightcyan;
+}
+
+#digidescripts {
+    padding: 0.5em;
+    position: absolute;
+    color: black;
+    top: 50em;
+    left: 34em;
+    background-color: cyan;
+}
+
+.buttonsdigi {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto auto auto;
+    position: absolute;
+    color: black;
+    top: 54em;
+    left: 32em;
+    background-color: darkcyan;
+}
+
+#digihelp {
+    padding: 0.5em;
+    position: absolute;
+    color: black;
+    top: 55em;
+    left: 28em;
+    background-color: cyan;
+}
+
+
+.colodescriptions {
+    padding: 1em;
+    position:absolute;
+    color: black;
+    top: 60em;
+    left: 22em;
+    background-color: lightcyan;
+}
+
+#colodescripts {
+    padding: 0.5em;
+    position: absolute;
+    color: black;
+    top: 50em;
+    left: 34em;
+    background-color: cyan;
+}
+
+.buttonscolo {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto auto auto;
+    position: absolute;
+    color: black;
+    top: 54em;
+    left: 31em;
+    background-color: darkcyan;
+}
+
+#colohelp {
+    padding: 0.5em;
+    position: absolute;
+    color: black;
+    top: 55em;
+    left: 28em;
+    background-color: cyan;
+}
+
+
+
+
+
+#phys .hide2 {
+    position: relative;
+    color: black;
+    background-color: rgb(0 300 700 / 85%);
+    bottom: 10px;
+    left: 10px;
+    padding: 8px;
+    visibility:hidden;
+}
+
+#phys:hover .hide2 {
+    visibility:visible;
+}
+
+#digi .hide3 {
+    position: relative;
+    color: black;
+    background-color: rgb(0 300 700 / 85%);
+    bottom: 10px;
+    left: 10px;
+    padding: 8px;
+    visibility:hidden;
+}
+
+#digi:hover .hide3 {
+    visibility:visible;
+}
+
+#colo .hide4 {
+    position: relative;
+    color: black;
+    background-color: rgb(0 300 700 / 85%);
+    bottom: 10px;
+    left: 10px;
+    padding: 8px;
+    visibility:hidden;
+}
+
+#colo:hover .hide4 {
+    visibility:visible;
+}
+
+.photos {
+    text-align: center;
+    position: absolute;
+    display: grid;
+    grid-template-columns: 20em 20em;
+    justify-content: space-around;
+    grid-gap: 10em;
+    padding: 1em;
+    
+
+    transition: transform .2s;
+    
+    
+    top: 15em;
+    left: 18em;
+    z-index: 1;
+}
+
+.full-imgphys {
+    top: 15em;
+    left: 14em;
+    padding: 3em;
+    text-align: center;
+    position: relative;
+    display: block;
+    width: 640px;
+    height: 480px;
+    
+  }
+
+  .displayed-imgphys{
+    max-width: 680px;
+    max-height: 480px;
+  }
+  
+  .thumb-barphys img {
+    position:relative;
+    top: 15em;
+    display: block;
+    width: 20%;
+    cursor: pointer;
+  }
+
+
+  .full-imgdigi {
+    top: 15em;
+    left: 14em;
+    padding: 3em;
+    text-align: center;
+    position: relative;
+    display: block;
+    width: 640px;
+    height: 480px;
+    
+  }
+
+  .displayed-imgdigi{
+    max-width: 680px;
+    max-height: 480px;
+  }
+  
+  .thumb-bardigi img {
+    position: relative;
+    top: 15em;
+    display: block;
+    width: 20%;
+    cursor: pointer;
+  }
+
+
+  .full-imgcolo {
+    top: 15em;
+    left: 14em;
+    padding: 3em;
+    text-align: center;
+    position: relative;
+    display: block;
+    width: 640px;
+    height: 480px;
+    
+  }
+
+  .displayed-imgcolo{
+    max-width: 680px;
+    max-height: 480px;
+  }
+  
+  .thumb-barcolo img {
+    position: relative;
+    top: 15em;
+    display: block;
+    width: 20%;
+    cursor: pointer;
+  }
+
+#cat1 {
+    position: absolute;
+    top: 15em;
+    left: 52em;
+    Max-width: 30em;
+    padding: 5em;
+}
+
+#cat2 {
+    position: absolute;
+    top: 40em;
+    left: 20em;
+    max-width: 30em;
+    padding: 5em;
+}
+
+#cat3 {
+    position: absolute;
+    top: 72em;
+    left: 48em;
+    max-width: 30em;
+    padding: 5em;
+}
+
+#W1 {
+    position: absolute;
+    top: 100em;
+    left: 5em;
+    max-width: 30em;
+    padding: 5em;
+}
+
+#W2 {
+    position: absolute;
+    top: 105em;
+    left: 37em;
+    max-width: 30em;
+    padding: 5em;
+}
+
+#cat4 {
+    position: absolute;
+    top: 125em;
+    left: 70em;
+    max-width: 30em;
+    padding: 5em;
+}
+
+#cat5 {
+    position: absolute;
+    top: 160em;
+    left: 22em;
+    max-width: 30em;
+    padding: 5em;
+}
+
+#CCT {
+    position: absolute;
+    top: 170em;
+    left: 55em;
+    max-width: 30em;
+    padding: 5em;
+}
+
+#cat6 {
+    position: absolute;
+    top: 205em;
+    left: 18em;
+    max-width: 30em;
+    padding: 5em;
+}
+
+#CC1 {
+    position: absolute;
+    top: 240em;
+    left: 10em;
+    max-height: 25em;
+    padding: 5em;
+}
+
+#CC2 {
+    position: absolute;
+    top: 270em;
+    left: 20em;
+    max-height: 25em;
+    padding: 5em;
+}
+
+#DLT {
+    position: absolute;
+    top: 300em;
+    left: 12em;
+    max-width: 30em;
+    padding: 5em;
+}
+
+#cat7 {
+    position: absolute;
+    top: 320em;
+    left: 50em;
+    max-width: 30em;
+    padding: 5em;
+}
+
+#sp1 {
+    position: absolute;
+    top: 355em;
+    left: 50em;
+    max-width: 25em;
+    padding: 5em;
+}
+
+#cat8 {
+    position: absolute;
+    top: 350em;
+    left: 15em;
+    max-width: 30em;
+    padding: 5em;
+}
+
+#link {
+    position: absolute;
+    top: 390em;
+    left: 30em;
+    text-align: center;
+    color: black;
+    background-color: lightcyan;
+    padding: 1em;
+}
+
+#sp2 {
+    position: absolute;
+    top: 420em;
+    left: 20em;
+    max-width: 25em;
+    padding: 5em;
+}
+
+#cat9 {
+    position: absolute;
+    top: 450em;
+    left: 50em;
+    max-width: 30em;
+    padding: 3em;
+}
+
+#aboutme {
+    padding: 3px;
+    display: grid;
+    position: absolute;
+    grid-template-columns: auto;
+    background-color: lightcyan;
+    z-index: 2;
+}
+
+#header {
+    text-align: center;
+}
+
+#about {
+    text-align: center;
+}
+
+#me {
+    text-align: center;
+}
+
+#alseng {
+    
+    max-width: 14em;
+    max-height: auto;
+}
